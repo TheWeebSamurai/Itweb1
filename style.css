@@ -1,0 +1,181 @@
+.card {
+
+font-family: sans-serif;
+font-weight: 900;
+display: block;
+overflow: hidden;
+float: left;
+text-align: center;
+border: 2px solid black;
+border-radius: 50px;
+height: 30rem;
+width: 15rem;
+padding: 50px 50px;
+transition-duration: 500ms;
+position: relative;
+cursor: pointer;
+}
+
+.card h1 {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 50rem;
+  position: relative;
+
+}
+
+.card img {
+  width: 100%; /* Image adjusts with the card's size */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -45px;
+
+}
+
+
+.card:hover {
+height: 32rem;
+width: 19rem;
+}
+
+.card:active {
+height:  32rem;
+width: 19rem;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.containere {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.containere div {
+  margin-top: 75px;;
+}
+
+.nav {
+  overflow: hidden;
+  padding: 20px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: left;
+  width: 95%;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  grid-gap: 20px;
+  border-radius: 50rem;
+}
+
+
+
+
+.nav a  {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  padding: 15px 20px;
+  transition-duration: 500ms;
+  border-radius: 5rem;
+}
+
+.nav a:hover {
+color: green;
+border: 2px solid white;
+border-radius: 5rem;
+}
+
+.nav a.active {
+  color: green;
+  background: black;
+}
+
+
+form {
+  margin: 5rem;
+  text-align: center;
+  justify-content:space-around;
+  display: block;
+  gap: 20px;
+
+}
+
+form input {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 15px;
+  transition: 500ms;
+  text-align: center;
+}
+
+input.button {
+border-radius: 50rem;
+
+}
+
+form input:hover {
+  width: 15rem;
+}
+
+form input:active {
+  width: 15rem;
+}
+.button {
+  margin-top: 10px;
+  height: 25px;
+  width: 50px;
+  border-radius: 2rem;
+  padding: 10px 15px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 500ms;
+  background-color: green;
+  border: 2px solid black;
+  justify-content: center;
+}
+
+
+
+.button:hover{
+  background-color: white;
+  width: 60px;
+}
+
+.down {
+  float:right;
+  display: flex;
+}
+
+
+.box {
+  border: 5px solid black;
+  border-radius: 5rem;
+  width: 25rem;
+  height: 25rem;
+}
+
+.forgot {
+  color:skyblue; 
+  text-align:center;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: underline;
+  position: relative;
+  
+}
